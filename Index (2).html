@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PAVA Service — Итоги года</title>
+  <meta name="description" content="Итоги года PAVA Service: 1400+ выкупов, $1,008,000 объёма, 1725+ отзывов." />
+  <style>
+    :root{
+      --bg1:#0b0b12;
+      --bg2:#160b1f;
+      --card:rgba(255,255,255,.06);
+      --border:rgba(255,255,255,.10);
+      --text:rgba(255,255,255,.92);
+      --muted:rgba(255,255,255,.72);
+      --accent1:#a855f7;
+      --accent2:#ec4899;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(1200px 600px at 20% 10%, rgba(168,85,247,.35), transparent 60%),
+        radial-gradient(1000px 700px at 80% 20%, rgba(236,72,153,.30), transparent 55%),
+        linear-gradient(180deg, var(--bg1), var(--bg2));
+      min-height:100vh;
+    }
+    .wrap{max-width:980px;margin:0 auto;padding:48px 18px 60px}
+    .hero{
+      padding:26px 22px;
+      border:1px solid var(--border);
+      background:linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.04));
+      border-radius:22px;
+      box-shadow: 0 20px 80px rgba(0,0,0,.35);
+      overflow:hidden;
+      position:relative;
+    }
+    .badge{
+      display:inline-block;
+      padding:8px 12px;
+      border:1px solid var(--border);
+      border-radius:999px;
+      background:rgba(255,255,255,.05);
+      color:var(--muted);
+      font-weight:600;
+      letter-spacing:.2px;
+      font-size:13px;
+    }
+    h1{
+      margin:14px 0 8px;
+      font-size:34px;
+      line-height:1.1;
+    }
+    .sub{
+      margin:0;
+      color:var(--muted);
+      font-size:16px;
+      line-height:1.5;
+      max-width:72ch;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(4, minmax(0,1fr));
+      gap:12px;
+      margin-top:18px;
+    }
+    .card{
+      padding:16px 14px;
+      border:1px solid var(--border);
+      background:var(--card);
+      border-radius:18px;
+    }
+    .num{
+      font-size:26px;
+      font-weight:800;
+      margin:0 0 6px;
+      background: linear-gradient(90deg, var(--accent1), var(--accent2));
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+    }
+    .label{
+      margin:0;
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.35;
+    }
+    .block{
+      margin-top:16px;
+      padding:18px 18px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.04);
+      border-radius:18px;
+    }
+    .block p{
+      margin:0;
+      color:var(--muted);
+      font-size:15px;
+      line-height:1.65;
+    }
+    .block p + p{margin-top:10px}
+    .footer{
+      margin-top:18px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      align-items:center;
+      justify-content:space-between;
+      color:var(--muted);
+      font-size:13px;
+    }
+    .pill{
+      padding:10px 12px;
+      border-radius:14px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.04);
+    }
+    @media (max-width:860px){
+      .grid{grid-template-columns:repeat(2, minmax(0,1fr))}
+      h1{font-size:30px}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <span class="badge">PAVA Service • Итоги года</span>
+      <h1>Мы прошли самый тяжёлый год — и мы здесь.</h1>
+      <p class="sub">
+        Спасибо за доверие, терпение и вашу поддержку. Этот год был максимально сложным,
+        но именно вместе с вами мы удержали качество, репутацию и темп.
+      </p>
+
+      <div class="grid" aria-label="Ключевые показатели">
+        <div class="card">
+          <p class="num">1400+</p>
+          <p class="label">товаров выкуплено нами за год</p>
+        </div>
+        <div class="card">
+          <p class="num">$1,008,000</p>
+          <p class="label">сумма выкупа за год</p>
+        </div>
+        <div class="card">
+          <p class="num">1725+</p>
+          <p class="label">отзывов за всё время работы</p>
+        </div>
+        <div class="card">
+          <p class="num">0</p>
+          <p class="label">скам-листов и подтверждённых обвинений</p>
+        </div>
+      </div>
+
+      <div class="block">
+        <p>
+          Спасибо каждому, кто доверял, работал с нами и писал отзывы — это наша главная опора.
+          Спасибо и тем, кто пытался задеть: иногда именно это мотивирует доказывать делом.
+          Если нам завидуют — значит, мы движемся правильно.
+        </p>
+        <p>
+          Я уверен: это даже не половина нашего потенциала. Впереди — новые обновления,
+          новые возможности и ещё большие высоты, которые мы возьмём вместе с вами.
+        </p>
+        <p>
+          Это уже третий Новый год, который мы встречаем вместе: 2023, 2024, 2025 — и теперь 2026.
+          Спасибо, что остаётесь с нами — и тем, кто с первого дня, и тем, кто присоединился недавно.
+        </p>
+      </div>
+
+      <div class="footer">
+        <div class="pill"><strong>С Новым годом!</strong> 💜</div>
+        <div class="pill">PAVA Service</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
